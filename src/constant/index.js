@@ -19,9 +19,9 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    ecommerse,
+    design,
+    sunDown,
     threejs,
   } from "../assets";
   
@@ -190,67 +190,72 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "E-Commerce_UI",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Crafting intuitive interfaces that seamlessly connect users with products, enhancing the online shopping experience through thoughtful design and functionality",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
+        // {
+        //   name: "mongodb",
+        //   color: "green-text-gradient",
+        // },
         {
           name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: ecommerse,
+      source_code_link: "https://github.com/Mausam100/Ecommerce-FrontendByReact",
+      live_demo_link: "https://ecommerce-frontendbyreact.netlify.app/"
     },
     {
-      name: "Job IT",
+      name: "Cynthia-Ugwu-clone",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Transforming visions into captivating digital experiences, with a focus on clean, responsive designs that elevate brands and engage audiences.",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: design,
+      source_code_link: "https://github.com/Mausam100/Cynthia-Ugwu-clone-",
+      live_demo_link: "https://mausam100.github.io/Cynthia-Ugwu-clone-/"
+
     },
     {
-      name: "Trip Guide",
+      name: "SunDown_UI-clone",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Transforming spaces into personalized havens, our frontend code brings stunning interior designs to life, inspiring and delighting visitors with every click",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
+        // {
+        //   name: "supabase",
+        //   color: "green-text-gradient",
+        // },
         {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
+          name: "TailwindCss",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: sunDown,
+      source_code_link: "https://github.com/Mausam100/sundown-studio_UI-cloneBy-React",
+      live_demo_link: "https://sundown-studio-ui-clone.netlify.app"
+      
     },
   ];
   

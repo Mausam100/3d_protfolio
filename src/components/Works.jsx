@@ -6,7 +6,7 @@ import { github } from '../assets'
 import { SectionWrapper } from '../hoc'
 import { projects } from '../constant'
 import { fadeIn, textVariant } from '../utils/motion'
-const ProjectCard =({ index, name, description, tags, image, source_code_link })=>{
+const ProjectCard =({ index, name, description, tags, image, source_code_link, live_demo_link })=>{
    return(
     <motion.div variants={fadeIn("up", "spring", index*0.5, 0.75)}>
       <Tilt
@@ -17,12 +17,17 @@ const ProjectCard =({ index, name, description, tags, image, source_code_link })
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
-        <div className='relative w-full h-[230px]'>
+        <div className='relative w-full h-[230px] cursor-pointer'
+        onClick={()=> window.open(live_demo_link, "_blank")}
+         >
+          
+
           <img
             src={image}
             alt='project_image'
-            className='w-full h-full object-cover rounded-2xl'
+            className='w-full h-full object-cover rounded-2xl '
           />
+          
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
