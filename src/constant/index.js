@@ -108,7 +108,7 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
+      title: "React.js Developer(Dummy)",
       company_name: "Starbucks",
       icon: starbucks,
       iconBg: "#383E56",
@@ -121,7 +121,7 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
+      title: "React Native Developer(Dummy)",
       company_name: "Tesla",
       icon: tesla,
       iconBg: "#E6DEDD",
@@ -134,7 +134,7 @@ import {
       ],
     },
     {
-      title: "Web Developer",
+      title: "Web Developer(Dummy)",
       company_name: "Shopify",
       icon: shopify,
       iconBg: "#383E56",
@@ -147,7 +147,7 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
+      title: "Full stack Developer(Dummy)",
       company_name: "Meta",
       icon: meta,
       iconBg: "#E6DEDD",
